@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Brush Script MT", cursive;
+    background-color: rgb(230, 230, 230);
+}
+
+.container-fluid {
+    position: relative;
+    top: 60px;
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+}
+
+.m-title {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 1.75em;
+    font-weight: bold;
+    font-style: normal;
+    font-variant: normal;
+}
+
+.menu {
+    position: relative;
+    top: 0;
+    background-color: grey;
+    margin: 15px;
+    padding-bottom: 10px;
+}
+
+.title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.25em;
+}
+
+.menu p {
+    margin: 0px 18px;
+    text-align: justify;
+    font-size: 1em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.navbar-header button.navbar-toggle,
+.icon-bar {
+    border: 2px solid #000 !important;
+    background-color: grey;
+}
+
+.sr-only {
+    color: black;
+}
+
+.navbar-brand {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.navbar-brand h1 {
+    color: #000;
+    font-size: 1.2em;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    margin-left: 15px;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#nav-list li {
+    border-bottom: 2px solid black;
+}
+
+@media (max-width: 767px) {
+    .navbar-collapse {
+        background-color: rgb(230, 230, 230);
+    }
+}
+
+#nav-list li:nth-child(3) {
+    border-bottom: 0;
+}
+
+#nav-list li a {
+    color: black;
+    font-size: 1em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.navbar-dark {
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 0;
+}
